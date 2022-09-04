@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game</title>
+    <link rel="stylesheet" href="/static/madlibs.css" />
+  </head>
+  <body>
+    <h1>Welcome to Madlibs</h1>
+    <form action="/madlib">
+      <label for="color-select">Pick a color:</label>
+      <select name="color" id="color-select">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="yellow">Yellow</option>
+        <option value="orange">Orange</option>
+        <option value="purple">Purple</option>
+        <option value="green">Green</option>
+      </select>
+      <br /><br />
+      <label for="person-choice"> Name a Person:</label>
+      <input type="text" name="person" id="person-choice" />
+      <br /><br />
+      <label for="noun-choice"> Name a Noun:</label>
+      <input type="text" name="noun" id="noun-choice" />
+      <br /><br />
+      <label for="adjective-choice"> Name a Adjective:</label>
+      <input type="text" name="adjective" id="adjective-choice" />
+      <br /><br />
+      <label for="number-select">Pick a Number:</label>
+      <select name="number" id="number-select">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <br /><br />
+      <label for="name2-select">Name another person:</label>
+      <input type="text" id="name2-select" name="name2" />
+      <p>Choose some pronouns:</p>
+      <input type="radio" name="pronoun" value="they" id="they/them" />
+      <label for="they/them">They/Them</label>
+      <input type="radio" name="pronoun" value="she" id="she/her" />
+      <label for="she/her">She/Her</label>
+      <input type="radio" name="pronoun" value="he" id="he/him" />
+      <label for="he/him">He/Him</label>
+      <br /><br />
+      <label for="verb-select">Name a verb:</label>
+      <input type="text" id="verb-select" name="verb" />
+      <p>Choose a positional number:</p>
+      <input type="radio" name="posnum" value="first" id="first" />
+      <label for="first">first</label>
+      <input type="radio" name="posnum" value="second" id="second" />
+      <label for="second">second</label>
+      <input type="radio" name="posnum" value="third" id="third" />
+      <label for="third">third</label>
+      <br /><br />
+      <label for="adverb-select">Name an adverb:</label>
+      <input type="text" id="adverb-select" name="adverb" />
+      <br /><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
